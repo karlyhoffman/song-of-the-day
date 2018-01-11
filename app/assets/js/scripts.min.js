@@ -1,6 +1,6 @@
 /*!
- * ProjectName
- * Project Title
+ * Song Blog
+ * Song of the Day
  * http://www.karlyhoffman.com
  * @author Karly Hoffman
  * @version 1.0.5

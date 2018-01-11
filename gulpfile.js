@@ -58,17 +58,7 @@ var banner = [
 
 var onError = function(err){
 	notify.onError({
-		title:    "Gulp - McD Webby",
-		subtitle: "Failure!",
-		message:  "Error: <%= error.message %>",
-		sound:    "Beep"
-	})(err);
-	this.emit('end');
-};
-
-var onError = function(err){
-	notify.onError({
-		title:    "Gulp - McD Webby",
+		title:    "Gulp - Song of the Day",
 		subtitle: "Failure!",
 		message:  "Error: <%= error.message %>",
 		sound:    "Beep"

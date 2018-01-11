@@ -1,13 +1,13 @@
 {
-  "name": "ProjectName",
-  "title": "Project Title",
+  "name": "Song Blog",
+  "title": "Song of the Day",
   "author": "Karly Hoffman",
   "url": "http://www.karlyhoffman.com",
   "version": "1.0.5",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/HosseinKarami/fastshell.git"
+    "url": "https://github.com/karlyhoffman/song-of-the-day"
   },
   "devDependencies": {
     "browser-sync": "2.14.0",
