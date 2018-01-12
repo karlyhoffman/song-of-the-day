@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Monoton');
+
 @font-face {
   font-family: 'Font-Name';
   src: url('../fonts/font-name.eot');
@@ -10,3 +12,12 @@
 }
 
 $font-style: 'Font-Name', sans-serif;
+
+$monoton: 'Monoton', cursive;
+$alegreya: 'Alegreya', serif;
+$bungee: 'Bungee Inline', cursive;
+
+h1 {
+  font-family: $monoton;
+  font-size: 20rem;
+}
