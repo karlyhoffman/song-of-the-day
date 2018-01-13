@@ -41,7 +41,6 @@ body.song-blog {
         }
       }
 
-
       .post {
         position: relative;
         display: block;
@@ -69,6 +68,7 @@ body.song-blog {
         }
 
         .back {
+          position: relative;
           transform: rotateY(180deg);
 
           .overlay {
@@ -78,6 +78,13 @@ body.song-blog {
             left: 0;
             right: 0;
             bottom: 0;
+          }
+
+          .spotify-widget {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
           }
         }
       }
