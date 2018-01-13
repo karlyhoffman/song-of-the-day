@@ -23,14 +23,62 @@ body.song-blog {
       z-index: 2;
       padding: 0 5vw;
 
+      .hover-pad {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        perspective: 1000;
+        width: 110vh; // 10vh more than .post width
+
+        &:hover {
+          .post {
+           transform: rotateY(180deg);
+          }
+
+          .front {
+            z-index: 0;
+          }
+        }
+      }
+
+
       .post {
+        position: relative;
         display: block;
         margin: 75vh auto 100vh;
         width: 100vh;
         height: 100vh;
+        transform-style: preserve-3d;
+        transition: 0.5s;
 
         img {
           width: 100%;
+        }
+
+        .face {
+          position: absolute;
+          backface-visibility: hidden;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+
+        .front {
+          z-index: 3;
+        }
+
+        .back {
+          transform: rotateY(180deg);
+
+          .overlay {
+            background-color: rgba(0,0,0,0.75);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+          }
         }
       }
     }
