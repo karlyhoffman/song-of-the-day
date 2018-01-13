@@ -12,6 +12,27 @@ body.song-blog {
       left: 0;
       right: 0;
       bottom: 0;
+      z-index: 1;
+    }
+
+    .post-cont {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      overflow-y: scroll;
+      z-index: 2;
+      padding: 0 5vw;
+
+      .post {
+        display: block;
+        margin: 75vh auto 100vh;
+        width: 100vh;
+        height: 100vh;
+
+        img {
+          width: 100%;
+        }
+      }
     }
   }
 }
