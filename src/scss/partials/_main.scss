@@ -70,6 +70,7 @@ body.song-blog {
         .back {
           position: relative;
           transform: rotateY(180deg);
+          overflow: hidden;
 
           .overlay {
             background-color: rgba(0,0,0,0.75);
