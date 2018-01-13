@@ -27,8 +27,10 @@ body.song-blog {
         position: relative;
         display: block;
         margin: 0 auto;
+        margin: 60vh auto 0 auto;
         perspective: 1000;
-        width: 110vh; // 10vh more than .post width
+        width: 100vh; // 10vh more than .post size
+        height: 100vh;
 
         &:hover {
           .post {
@@ -44,9 +46,10 @@ body.song-blog {
       .post {
         position: relative;
         display: block;
-        margin: 75vh auto 100vh;
-        width: 100vh;
-        height: 100vh;
+        top: 5vh;
+        margin: 0 auto;
+        width: 90vh;
+        height: 90vh;
         transform-style: preserve-3d;
         transition: 0.5s;
 
