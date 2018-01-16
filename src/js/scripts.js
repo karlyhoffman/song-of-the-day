@@ -7,8 +7,8 @@
     // Change Date
     $( ".post-cont" ).scroll(function() {
       $('.post').each(function() {
-        var postTop = $(this).offset().top - ($(this).height() * .25);
-        var postBottom = $(this).offset().top + $(this).height();
+        var postTop = $(this).offset().top;
+        var postBottom = $(this).offset().top + ($(this).height());
         var postDate = $(this).attr("data-date");
 
         if ( $( ".post-cont" ).scrollTop() >= postTop
