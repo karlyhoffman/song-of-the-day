@@ -1,4 +1,5 @@
 # Song of the Day Blog
+musicblogtheme.wordpress.com
 
 ## Project Deliverables:
 A simple, responsive WordPress theme for a music blog.
