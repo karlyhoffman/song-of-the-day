@@ -1,15 +1,16 @@
 # Song of the Day Blog
-musicblogtheme.wordpress.com
 
 ## Project Deliverables:
-A simple, responsive WordPress theme for a music blog.
+A simple, responsive music blog
+
+## Next Steps:
+Working on hooking up as a WordPress theme
 
 ## Technologies Used:
 - HTML 5
 - CSS/SCSS
 - JavaScript/JQuery
 - Gulp
-- Wordpress
 
 ## Getting Started:
 1. Download or clone repository
