@@ -1,4 +1,5 @@
 # Song of the Day Blog
+karlyhoffman.github.io/projects/song-blog/
 
 ## Project Deliverables:
 A simple, responsive music blog
