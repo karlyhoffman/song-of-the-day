@@ -2,15 +2,14 @@
 [View Demo](https://karlyhoffman.github.io/projects/song-blog/)
 
 ## Project Deliverables:
-A simple, responsive music blog
-
-## Next Steps:
-Working on hooking up as a WordPress theme
+A simple, responsive WordPress template for a music blog.
 
 ## Technologies Used:
 - HTML 5
 - CSS/SCSS
 - JavaScript/JQuery
+- PHP
+- Sage WordPress Theme Development
 - Gulp
 
 ## Getting Started:
