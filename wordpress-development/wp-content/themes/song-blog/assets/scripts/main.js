@@ -22,6 +22,19 @@
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
+
+        // Change Post Dates
+        $( ".post-cont" ).scroll(function() {
+          $('.post').each(function() {
+            var postTop = $(this).offset().top;
+            var postBottom = $(this).offset().top + ($(this).height() * 1.5 );
+            var postDate = $(this).attr("data-date");
+
+            if ( $( ".post-cont" ).scrollTop() >= postTop && $( ".post-cont" ).scrollTop() <= postBottom ) {
+                $('h1').html(postDate);
+            }
+          });
+        });
       }
     },
     // Home page

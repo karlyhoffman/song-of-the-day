@@ -1,0 +1,97 @@
+section.song-blog {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+
+  h1 {
+    position: absolute;
+    font-family: $monoton;
+    font-size: 12rem;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .post-cont {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    z-index: 2;
+    padding: 0 5vw;
+
+    .hover-pad {
+      position: relative;
+      display: block;
+      margin: 0 auto;
+      margin: 60vh auto 0 auto;
+      perspective: 1000;
+      width: 100vh; // 10vh more than .post size
+      height: 100vh;
+
+      &:hover {
+        .post {
+         transform: rotateY(180deg);
+        }
+
+        .front {
+          z-index: 0;
+        }
+      }
+    }
+
+    .post {
+      position: relative;
+      display: block;
+      top: 5vh;
+      margin: 0 auto;
+      width: 90vh;
+      height: 90vh;
+      transform-style: preserve-3d;
+      transition: 0.5s;
+
+      img {
+        width: 100%;
+      }
+
+      .face {
+        position: absolute;
+        backface-visibility: hidden;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .front {
+        z-index: 3;
+      }
+
+      .back {
+        position: relative;
+        transform: rotateY(180deg);
+        overflow: hidden;
+
+        .overlay {
+          background-color: rgba(0,0,0,0.75);
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+        }
+
+        .spotify-widget {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
+}
