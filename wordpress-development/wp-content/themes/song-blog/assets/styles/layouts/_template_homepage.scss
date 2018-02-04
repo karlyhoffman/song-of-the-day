@@ -83,6 +83,17 @@ section.song-blog {
           left: 0;
           right: 0;
           bottom: 0;
+          text-align: center;
+          padding-top: 7.5%;
+
+          p {
+            color: white;
+            font-family: $asar;
+            font-size: 1.25rem;
+            letter-spacing: 1px;
+            line-height: 1.5;
+            margin: 0;
+          }
         }
 
         .spotify-widget {

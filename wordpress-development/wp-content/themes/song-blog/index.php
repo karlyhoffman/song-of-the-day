@@ -12,14 +12,15 @@
       <?php endif; ?>
 
       <?php while (have_posts()) : the_post(); ?>
-        <!-- <?php get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?> -->
         <div class="hover-pad">
           <div class="post" data-date="<?php the_field('date'); ?>">
             <div class="face front">
               <img src="<?php the_field('front_image'); ?>" alt="">
             </div>
             <div class="face back">
-              <div class="overlay"></div>
+              <div class="overlay">
+                <?php the_content(); ?>
+              </div>
               <img src="<?php the_field('back_image'); ?>" alt="">
               <iframe
               class="spotify-widget"
