@@ -14,5 +14,10 @@ A simple, responsive WordPress template for a music blog.
 
 ## Getting Started:
 1. Download or clone repository
-2. Run `npm install`
-3. Run `gulp`
+2. Install MAMP and set document root to repository
+3. Move into the wp-content/themes/song-blog directory
+4. Run `npm install`
+5. Run `bower install`
+6. Run `gulp`
+7. Run `gulp watch`
+8. Complete WordPress' 5-Minute Installation
