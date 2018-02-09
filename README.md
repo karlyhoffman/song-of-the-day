@@ -4,6 +4,8 @@
 ## Project Deliverables:
 A simple, responsive WordPress template for a music blog.
 
+![Song of the Day Blog](https://github.com/karlyhoffman/song-of-the-day/blob/master/readme_photo.png?raw=true "Song of the Day Blog")
+
 ## Technologies Used:
 - HTML 5
 - CSS/SCSS
